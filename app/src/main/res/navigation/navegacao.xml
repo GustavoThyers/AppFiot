@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacao"
+    app:startDestination="@id/fragmentVazia">
+
+    <fragment
+        android:id="@+id/fragmentTelasStreaming"
+        android:name="com.example.appinsta.FragmentTelasStreaming"
+        android:label="fragment_telas_streaming"
+        tools:layout="@layout/fragment_telas_streaming" />
+    <fragment
+        android:id="@+id/fragmentVazia"
+        android:name="com.example.appinsta.fragmentVazia"
+        android:label="fragment_vazia"
+        tools:layout="@layout/fragment_vazia" />
+</navigation>
